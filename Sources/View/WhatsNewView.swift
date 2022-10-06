@@ -158,13 +158,13 @@ private extension WhatsNewView {
                 Text(
                     whatsNewText: feature.title
                 )
-                .font(.subheadline.weight(.semibold))
+                .font(.title3.weight(.semibold))
                 .foregroundColor(.primary)
                 .fixedSize(horizontal: false, vertical: true)
                 Text(
                     whatsNewText: feature.subtitle
                 )
-                .font(.subheadline)
+                .font(.body)
                 .foregroundColor(.secondary)
                 .fixedSize(horizontal: false, vertical: true)
             }
